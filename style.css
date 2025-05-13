@@ -23,9 +23,46 @@ nav a {
 
 nav a:hover {
     color: #F29A1F;
-   transition: all 0.3s ease;
+    transition: all 0.3s ease;
 }
 
-.left span{
+.left span {
     color: #F29A1F;
+}
+
+header {
+    background-color: #F29A1F;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}	
+
+.menu-grupo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem;
+}
+
+.menu-item{
+    border-radius: 0.3rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 0.5rem;
+    padding: 1rem;
+    width: 250px;
+    height: 150px;
+    transition: all 0.3s ease;
+}
+
+.menu-item:hover {
+    background-color: rgb(27, 25, 24);
+    color: #F29A1F;
+    transition: all 0.3s ease;
 }
